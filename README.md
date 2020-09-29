@@ -19,6 +19,7 @@ This pre-beta release is extremely limited and for proof of concept. New feature
 
 - Installs and configures vsftp as an anonymous FTP server
 - Enables and starts vsftpd
+- Backs up the original vsftpd.conf file
 - Configures a passive port range of 40000-40001
 - Configures firewalld
 - Shows the vsftpd status after completion
