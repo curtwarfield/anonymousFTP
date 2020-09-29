@@ -1,4 +1,4 @@
 # anonymousFTP
-An automated script to install and configure an anonymous FTP server using vsftpd.
+A vsftpd installer to install and configure an anonymous FTP server for Fedora, CentOS, and Red Hat Enterprise Linux.
 
-Requires Red Hat or clones such as CentOS or Fedora.
+
