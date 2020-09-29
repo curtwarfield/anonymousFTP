@@ -13,7 +13,7 @@ Then run it as sudo or root:
 
 `./anonymousvsftp-install.sh`
 
-This pre-beta release is extremely limited and for proof of concept. New features and enhancements will be introduced.
+This pre-beta release is extremely limited and for proof of concept. New features and enhancements will be introduced in the future.
 
 ## Current Feature List
 
@@ -21,6 +21,7 @@ This pre-beta release is extremely limited and for proof of concept. New feature
 - Enables and starts vsftpd
 - Configures a passive port range of 40000-40001
 - Configures firewalld
+- Shows the vsftpd status after completion
 
 ## Upcoming Feature List
 
