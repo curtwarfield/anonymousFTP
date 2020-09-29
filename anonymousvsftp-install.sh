@@ -15,6 +15,15 @@ echo "anon_root=/var/ftp/pub/" >> /etc/vsftpd/vsftpd.conf
 echo "pasv_min_port=40000" >> /etc/vsftpd/vsftpd.conf
 echo "pasv_max_port=40001" >> /etc/vsftpd/vsftpd.conf
 
+#Add the Firewalld rules
+firewall-cmd --add-port=40000/tcp --perm > /dev/null 2>&1
+firewall-cmd --add-port=40001/tcp --perm > /dev/null 2>&1
+firewall-cmd --add-service=ftp --perm > /dev/null 2>&1
+firewall-cmd --reload > /dev/null 2>&1
+
 #Enable and start the vsftpd service
 systemctl enable vsftpd
 systemctl start vsftpd
+
+#Check status of vsftpd
+systemctl status vsftpd
