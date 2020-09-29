@@ -12,3 +12,5 @@ First, get the script and make it executable:
 The run it:
 
 `./anonymousvsftp-install.sh`
+
+You need to run the script as sudo or root.
