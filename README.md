@@ -9,8 +9,8 @@ First, get the script and make it executable:
 
 `chmod +x anonymousvsftp-install.sh`
 
-The run it:
+Then run it as sudo or root:
 
 `./anonymousvsftp-install.sh`
 
-You need to run the script as sudo or root.
+This pre-beta release is extremely limited and for proof of concept. New features and enhancements will be introduced.
