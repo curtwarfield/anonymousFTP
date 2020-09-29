@@ -5,7 +5,7 @@ A vsftpd installer to install and configure an anonymous FTP server for Fedora, 
 
 First, get the script and make it executable:
 
-`curl -O https://raw.githubusercontent.com/curtwarfield/anonymousFTP/master/anonymousvsftp-install.sh
+`curl -O https://raw.githubusercontent.com/curtwarfield/anonymousFTP/master/anonymousvsftp-install.sh`
 `chmod +x anonymousvsftp-install.sh`
 
 The run it:
