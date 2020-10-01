@@ -1,4 +1,7 @@
-#This is a pre-beta release to show proof of concept
+#release 0.96
+
+echo "This script will install and configure vsftpd as an anounymous FTP server.
+read -rsn1 -p"Press any key to continue ";echo
 
 #Install vsftpd
 yum install vsftpd -y  >/dev/null 2>&1
