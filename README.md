@@ -13,7 +13,7 @@ Then run it as sudo or root:
 
 `./anonymousvsftp-install.sh`
 
-This pre-beta release is extremely limited and for proof of concept. New features and enhancements will be introduced in the future.
+This beta release is extremely limited and for proof of concept. New features and enhancements will be introduced in the future.
 
 ## Current Feature List
 
