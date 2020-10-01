@@ -1,4 +1,7 @@
-#This is a pre-beta release to show proof of concept
+#release 0.96
+
+echo "This script will install and configure vsftpd as an anounymous FTP server.
+read -rsn1 -p"Press any key to continue ";echo
 
 #Install vsftpd
 yum install vsftpd -y  >/dev/null 2>&1
@@ -14,6 +17,7 @@ echo
 #Create the vsftpd configuration file for an anonymous FTP server
 echo "We'll now configure the passive port range..."
 echo
+
 echo "Here are the current ports configured on your system..."
 firewall-cmd --list-all
 echo
@@ -22,6 +26,7 @@ echo "Please choose ports that are not already in use..."
 echo
 read -p "Enter the minimum passive port number to use: " minpasv
 read -p "Enter the maximum passive port number to use: " maxpasv
+
 echo "anonymous_enable=YES" >> /etc/vsftpd/vsftpd.conf
 echo "anon_upload_enable=NO" >> /etc/vsftpd/vsftpd.conf
 echo "hide_ids=YES" >> /etc/vsftpd/vsftpd.conf
