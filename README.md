@@ -1,5 +1,5 @@
 # anonymousFTP
-A [vsftpd](https://security.appspot.com/vsftpd.html) installer to install and configure an anonymous FTP server for [Fedora](https://getfedora.org/), [CentOS](https://www.centos.org/), and [Red Hat Enterprise Linux](https://www.redhat.com).
+A [vsftpd](https://security.appspot.com/vsftpd.html) bash installer script to install and configure an anonymous FTP server for [Fedora](https://getfedora.org/), [CentOS](https://www.centos.org/), and [Red Hat Enterprise Linux](https://www.redhat.com).
 
 ## Assumptions
 
