@@ -37,4 +37,4 @@ This is a pre-beta release. New features and enhancements will be introduced in 
 - Check for supported distros
 
 ## License 
-This project is under the [MIT License]
+This project is under the [MIT License](https://raw.githubusercontent.com/curtwarfield/anonymousFTP/master/LICENSE).
