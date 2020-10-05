@@ -14,7 +14,7 @@ First, grab the script and make it executable:
 `curl -O https://raw.githubusercontent.com/curtwarfield/anonymousFTP/master/anonymousvsftp-install.sh`   
 `chmod +x anonymousvsftp-install.sh`
 
-Then run it as sudo or root:
+Then run the script as sudo or root:
 
 `./anonymousvsftp-install.sh`
 
