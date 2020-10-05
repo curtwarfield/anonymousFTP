@@ -12,6 +12,8 @@ Then run it as sudo or root:
 
 `./anonymousvsftp-install.sh`
 
+The installer script configures `/var/ftp/pub` as the default FTP directory. This is where you'd put files available for download.
+
 This is a pre-beta release. New features and enhancements will be introduced in the future.
 
 ## Current Feature List
