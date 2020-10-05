@@ -4,8 +4,8 @@ A [vsftpd](https://security.appspot.com/vsftpd.html) installer to install and co
 ## Assumptions
 
 The installer script makes the following assumptions:
- - You are running a version of **Fedora**, **CentOS**, or **Red Hat Enterprise Linux** that uses systemd.
- - You are currently running firewalld.
+ - You are running a version of **Fedora**, **CentOS**, or **Red Hat Enterprise Linux** that uses `systemd`.
+ - You are currently running `firewalld`.
 
 ## Usage
 
