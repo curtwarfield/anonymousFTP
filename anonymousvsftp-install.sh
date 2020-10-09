@@ -1,6 +1,6 @@
 #release 0.96
 
-echo "This script will install and configure vsftpd as an anounymous FTP server.
+echo "This script will install and configure vsftpd as an anounymous FTP server."
 read -rsn1 -p"Press any key to continue ";echo
 
 #Install vsftpd
