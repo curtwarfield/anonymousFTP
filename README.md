@@ -20,7 +20,7 @@ Then run the script as sudo or root:
 
 The installer script configures `/var/ftp/pub` as the default FTP directory. This is the location to store the files that will be available for download.
 
-This is a pre-beta release. New features and enhancements will be introduced in the future.
+This is a pre-beta release. New features and enhancements will be introduced in the future. Additional requests are welcome.
 
 ## Current Feature List
 
