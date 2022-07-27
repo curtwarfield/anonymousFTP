@@ -1,11 +1,11 @@
 # anonymousFTP
-A [vsftpd](https://security.appspot.com/vsftpd.html) bash installer script to install and configure an anonymous FTP server for [Fedora](https://getfedora.org/), [CentOS](https://www.centos.org/),[Red Hat Enterprise Linux](https://www.redhat.com),   and other RPM based distros.
+A [vsftpd](https://security.appspot.com/vsftpd.html) `bash` script to install and configure an anonymous FTP server for [Fedora](https://getfedora.org/), [CentOS](https://www.centos.org/), and [Red Hat Enterprise Linux](https://www.redhat.com).
 
 ## Assumptions
 
-The installer script makes the following assumptions:
+This `bash` script makes the following assumptions:
  - You are running a version of **Fedora**, **CentOS**, or **Red Hat Enterprise Linux** that uses `systemd`.
- - You are currently running `firewalld`.
+ - You are currently running `firewalld` in enabled mode.
 
 ## Usage
 
@@ -16,7 +16,7 @@ curl -O https://raw.githubusercontent.com/curtwarfield/anonymousFTP/master/anony
 
 2. Make the script executable.
 ~~~
-chmod +x anonymousvsftp-install.sh
+sudo chmod +x anonymousvsftp-install.sh
 ~~~
 
 3. Run the script.
