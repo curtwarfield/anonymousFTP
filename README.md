@@ -9,14 +9,20 @@ The installer script makes the following assumptions:
 
 ## Usage
 
-First, grab the script and make it executable:
+1. Download the script using the `curl` command.
+~~~
+curl -O https://raw.githubusercontent.com/curtwarfield/anonymousFTP/master/anonymousvsftp-install.sh
+~~~
 
-`curl -O https://raw.githubusercontent.com/curtwarfield/anonymousFTP/master/anonymousvsftp-install.sh`    
-`chmod +x anonymousvsftp-install.sh`
+2. Make the script executable.
+~~~
+chmod +x anonymousvsftp-install.sh
+~~~
 
-Then run the script as sudo or root:
-
-`./anonymousvsftp-install.sh`
+3. Run the script.
+~~~
+sudo ./anonymousvsftp-install.sh
+~~~
 
 The installer script configures `/var/ftp/pub` as the default FTP directory. This is the location to store the files that will be available for download.
 
